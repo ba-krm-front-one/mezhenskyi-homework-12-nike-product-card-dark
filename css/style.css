@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'MuseoSansRounded';
+    src: url('../fonts/MuseoSansLight.woff');
+}
+* {
+    box-sizing: border-box;
+    transition: all 0.1s ease-in;
+}
+html {
+    height: 100%;
+}
+html,
+body {
+    min-height: 100%;
+    min-width: 860px;
+    background-color: darkgray;
+}
+.ba-margin-center {
+    margin: 0 auto;
+}
+.ba-font {
+    color: #e1e1e1;
+    font-family: 'MuseoSansRounded', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 18px;
+}
+.ba-main-bg {
+    width: 800px;
+    height: 600px;
+    background: url("../assets/main-bg.png") no-repeat;
+    background-size: auto;
+    margin-top: 40px;
+    padding-top: 109px;
+}
+.ba-container {
+    width: 686px;
+    height: 391px;
+    box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
+    border-radius: 10px;
+    background-color: #111a28;
+}
+.ba-head {
+    width: 100%;
+    height: 90px;
+    padding-top: 24px;
+    padding-left: 21px;
+}
+.ba-snicker {
+    width: 400px;
+    height: 200px;
+    float: left;
+    padding-left: 36px;
+    padding-top: 69px;
+}
+.ba-content {
+    width: 245px;
+    height: 200px;
+    float: right;
+}
+.ba-content__title {
+    width: 155px;
+    height: 44px;
+    font-size: 24px;
+    line-height: 26px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+.ba-content__description {
+    width: 172px;
+    height: 14px;
+    opacity: 0.54;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+.ba-stars {
+    width: 78px;
+    height: 12px;
+    margin-bottom: 27px;
+}
+.ba-stars__img {
+    width: 12px;
+    height: 12px;
+
+}
+.ba-stars__img:hover {
+    transform: scale(1.4,1.4);
+    background: url("../assets/full-star.png");
+}
+.ba-select {
+    width: 69px;
+    height: 32px;
+    border: 1px solid #ffffff;
+    background-color: #111a28;
+    opacity: 0.26;
+    color: #ffffff;
+}
+.ba-select__item {
+    width: 24px;
+    height: 11px;
+}
+.ba-btn {
+    width: 184px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: #4c525a;
+    opacity: 0.26;
+    margin-top: 29px;
+}
+.ba-btn:hover {
+    background: #c0c0c0;
+}
+
+
+color: #e1e1e1;
+font-family: 'MuseoSansRounded', sans-serif;
+font-size: 14px;
+font-weight: 100;
+line-height: 18px;
+
